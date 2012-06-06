@@ -1,32 +1,32 @@
-package safe;
+//package safe;
 
 /**
- *
+ *****************************NOT USED FOR NOW*********************************
  * @author justin
  */
-public interface SafeItem {
+//public interface SafeItem {
     
     /*Sets the size of the safe item
      * updatas the value of size
      */
-    public void setSize(int size);
+  //  public void setSize(int size);
     
     /*Gets the size of the safe item
      *Returns size
      *Here I made size an integer as an example, but could be a different type
      */
-    public int getSize();
+    //public int getSize();
     
     /*Sets the name of the safe item
      *Update name
      */
-    public void setName(String name);
+    //public void setName(String name);
     
     /*Gets the name of the safe item
      *Returns name
      */
-    public String getName();
-}
+    //public String getName();
+//}
 
 /*Possible Fields:
  * size - holds the size of an item, can be used to see if it will fit in the safe
