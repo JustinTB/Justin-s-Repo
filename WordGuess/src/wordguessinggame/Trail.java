@@ -16,7 +16,7 @@ public class Trail {
         for(int i = 0; i < boolTrail.length; i++){
             boolTrail[i] = false;
         }
-    }
+    }//End of constructor
     
     public void updateTrail(String word, String guess){
         
@@ -61,5 +61,5 @@ public class Trail {
             System.out.println("\nCONGRATULATIONS!!!! YOU GUESSED THE WORD!!!!");
             System.out.println("The word was " + word + ".");
         }
-    }
-}
+    }//End of printTrail
+}//End of class Trail
