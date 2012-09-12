@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.shadowmap.scenegraph.viewer">
+    <module_version install_time="1347464740655" last="true" origin="installer" specification_version="1.0">
+        <file crc="2459055693" name="config/Modules/edu-isocial-shadowmap-scenegraph-viewer.xml"/>
+        <file crc="2159380740" name="modules/edu-isocial-shadowmap-scenegraph-viewer.jar"/>
+    </module_version>
+</module>

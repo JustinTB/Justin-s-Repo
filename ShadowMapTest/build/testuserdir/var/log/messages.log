@@ -1,0 +1,209 @@
+-------------------------------------------------------------------------------
+>Log Session: Wednesday, September 12, 2012 10:45:42 AM CDT
+>System Info: 
+  Product Version         = ShadowMapTest 201204101705
+  Operating System        = Mac OS X version 10.6.8 running on x86_64
+  Java; VM; Vendor        = 1.6.0_22; Java HotSpot(TM) 64-Bit Server VM 17.1-b03-307; Apple Inc.
+  Runtime                 = Java(TM) SE Runtime Environment 1.6.0_22-b04-307-10M3261
+  Java Home               = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+  System Locale; Encoding = en_US (shadowmaptest); MacRoman
+  Home Directory          = /Users/justin
+  Current Directory       = /Users/justin/NetBeansProjects/ShadowMapTest
+  User Directory          = /Users/justin/NetBeansProjects/ShadowMapTest/build/testuserdir
+  Cache Directory         = /Users/justin/NetBeansProjects/ShadowMapTest/build/testuserdir/var/cache
+  Installation            = /Users/justin/NetBeansProjects/ShadowMapTest/build/cluster
+                            /Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform
+                            /Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform
+  Boot & Ext. Classpath   = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/System/Library/Java/Extensions/AppleScriptEngine.jar:/System/Library/Java/Extensions/dns_sd.jar:/System/Library/Java/Extensions/j3daudio.jar:/System/Library/Java/Extensions/j3dcore.jar:/System/Library/Java/Extensions/j3dutils.jar:/System/Library/Java/Extensions/jai_codec.jar:/System/Library/Java/Extensions/jai_core.jar:/System/Library/Java/Extensions/mlibwrapper_jai.jar:/System/Library/Java/Extensions/MRJToolkit.jar:/System/Library/Java/Extensions/QTJava.zip:/System/Library/Java/Extensions/vecmath.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+  Application Classpath   = /Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/boot.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/org-openide-modules.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/org-openide-util-lookup.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/org-openide-util.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/boot_ja.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/boot_pt_BR.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/boot_ru.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/boot_zh_CN.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_ja.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_pt_BR.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_ru.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_zh_CN.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_ja.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_ru.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_ja.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_pt_BR.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_ru.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_zh_CN.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/dt.jar
+  Startup Classpath       = /Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/core.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/org-openide-filesystems.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/core_ja.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/core_pt_BR.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/core_ru.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/core_zh_CN.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_ja.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_pt_BR.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_ru.jar:/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_zh_CN.jar:/Users/justin/NetBeansProjects/ShadowMapTest/build/cluster/core/locale/core_shadowmaptest.jar
+-------------------------------------------------------------------------------
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.11.1 201204101705]
+	org.openide.util [8.19.2 201204101705]
+	org.openide.modules [7.27.1 201204101705]
+	org.openide.filesystems [7.53.2 201204101705]
+	org.openide.awt [7.39.1 201204101705]
+	org.netbeans.api.progress/1 [1.26.1 201204101705]
+	org.openide.dialogs [7.23.1 201204101705]
+	org.openide.nodes [7.25.1 201204101705]
+	org.openide.windows [6.48.2 201204101705]
+	org.netbeans.modules.editor.mimelookup/1 [1.24.1 201204101705]
+	org.openide.text [6.43.3 201204101705]
+	org.netbeans.swing.tabcontrol [1.29.1 201204101705]
+	org.netbeans.swing.outline [1.17.2 201204101705]
+	org.openide.explorer [6.40.1 201204101705]
+	org.openide.actions [6.24.1 201204101705]
+	org.netbeans.modules.queries/1 [1.25.1 201204101705]
+	org.netbeans.api.annotations.common/1 [1.11.1 201204101705]
+	org.openide.loaders [7.32.1 201204101705]
+	org.openide.io [1.29.1 201204101705]
+	org.netbeans.swing.plaf [1.23.1 201204101705]
+	org.netbeans.spi.quicksearch [1.12.1 201204101705]
+	org.netbeans.bootstrap/1 [2.44.3 201204101705]
+	org.netbeans.core.startup/1 [1.36.1 201204101705]
+	org.netbeans.modules.settings/1 [1.33.1 201204101705]
+	org.netbeans.modules.progress.ui [1.18.1 201204101705]
+	org.netbeans.modules.print [7.11.1 201204101705]
+	org.netbeans.modules.keyring [1.8.1.1 201204101705]
+	org.netbeans.core/2 [3.28.1 201204101705]
+	org.netbeans.modules.options.api/1 [1.24.1 201204101705]
+	org.netbeans.modules.options.keymap [1.16.1 201204101705]
+	org.netbeans.libs.jna/1 [1.16.1 201204101705]
+	org.netbeans.modules.masterfs/2 [2.34.2 201204101705]
+	org.netbeans.modules.keyring.impl [1.5.2 201204101705]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.16.1 201204101705]
+	org.netbeans.core.windows/2 [2.41.4 201205181646]
+	org.netbeans.modules.applemenu/1 [1.22.2 201204101705]
+	org.netbeans.libs.osgi [1.7.1 201204101705]
+	org.netbeans.libs.felix [2.1.1 201204101705]
+	org.netbeans.core.ui/1 [1.29.1 201204101705]
+	org.netbeans.core.output2/1 [1.24.2 201204101705]
+	org.netbeans.core.netigso [1.12.2 201204101705]
+	org.netbeans.core.nativeaccess/1 [1.14.2 201204101705]
+	org.netbeans.core.io.ui/1 [1.14.1 201204101705]
+	edu.isocial.shadowmap.gluegen [1.0 120829]
+	edu.isocial.shadowmap.jogl [1.0 120829]
+	edu.isocial.shadowmap.mtgamejars [1.0 120829]
+	edu.isocial.shadowmap.mtgamejar [1.0 120829]
+	edu.isocial.shadowmap.shadowmap_api [1.0 120906]
+	edu.isocial.shadowmap.sgvapi [1.0 120829]
+	edu.isocial.shadowmap.propertiesapi [1.0 120829]
+	edu.isocial.shadowmap.scenegraph.viewer [1.0 120829]
+	edu.isocial.shadowmap.properties [1.0 120829]
+	edu.isocial.shadowmap [1.0 120906]
+	edu.isocial.shadowmap.addshape [1.0 120906]
+SEVERE [global]
+java.lang.ClassNotFoundException: com.apple.eawt.FullScreenUtilities
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:262)
+Caused: java.lang.ClassNotFoundException: com.apple.eawt.FullScreenUtilities starting from ModuleCL@372943ac[org.netbeans.modules.applemenu] with possible defining loaders null and declared parents [ModuleCL@49f10a67[org.openide.windows], ModuleCL@35a3e41f[org.openide.nodes], org.netbeans.MainImpl$BootClassLoader@5220be79, ModuleCL@5aa45a24[org.netbeans.core.windows], ModuleCL@6e0f0ad[org.openide.loaders], ModuleCL@8a030d6[org.openide.awt]]
+	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:264)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+Caused: java.lang.NoClassDefFoundError: com/apple/eawt/FullScreenUtilities
+	at org.netbeans.modules.applemenu.NbApplicationAdapter$1.run(NbApplicationAdapter.java:106)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:633)
+[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'ViewerTopComponent'. Reason: Cannot create instance of edu.isocial.shadowmap.scenegraph.viewer.ScenegraphTopComponent
+
+msg
+Caused: java.lang.NullPointerException
+	at edu.isocial.shadowmap.scenegraph.viewer.ScenegraphTopComponent.refreshScenegraph(ScenegraphTopComponent.java:181)
+	at edu.isocial.shadowmap.scenegraph.viewer.ScenegraphTopComponent.<init>(ScenegraphTopComponent.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.netbeans.modules.settings.convertors.XMLPropertiesConvertor.defaultInstanceCreate(XMLPropertiesConvertor.java:227)
+Caused: java.io.IOException: Cannot create instance of edu.isocial.shadowmap.scenegraph.viewer.ScenegraphTopComponent
+	at org.netbeans.modules.settings.convertors.XMLPropertiesConvertor.defaultInstanceCreate(XMLPropertiesConvertor.java:229)
+	at org.netbeans.modules.settings.convertors.XMLPropertiesConvertor.read(XMLPropertiesConvertor.java:98)
+	at org.netbeans.modules.settings.InstanceProvider$InstanceCookieImpl.instanceCreate(InstanceProvider.java:310)
+[catch] at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentPersistentForID(PersistenceManager.java:571)
+	at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentForID(PersistenceManager.java:681)
+	at org.netbeans.core.windows.PersistenceHandler.getTopComponentForID(PersistenceHandler.java:489)
+	at org.netbeans.core.windows.PersistenceHandler.load(PersistenceHandler.java:156)
+	at org.netbeans.core.windows.WindowSystemImpl.load(WindowSystemImpl.java:81)
+	at org.netbeans.core.GuiRunLevel$InitWinSys.run(GuiRunLevel.java:234)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:633)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:162)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+ALL [null]: org.netbeans.modules.settings.InstanceProvider@6f7e982f[org.openide.loaders.InstanceDataObject@24d200d8[MultiFileObject@b6be7ee[Windows2Local/Components/ViewerTopComponent.settings]], MultiFileObject@123aabc1[xml/lookups/edu_isocial_shadowmap_scenegraph_viewer/Viewer.instance]]
+INFO [com.jme.input.joystick.DummyJoystickInput]: Joystick support is disabled
+REFRESHED
+REFRESHED
+NUMBER OF ENTITIES: 0
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: module edu.isocial.shadowmap.jogl in /Users/justin/NetBeansProjects/ShadowMapTest/build/cluster does not own modules/lib/libjogl.jnilib at org.netbeans.StandardModule$OneModuleClassLoader.findLibrary(StandardModule.java:718)
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: setImplementor org.jdesktop.mtgame.Renderer$MyImplementor@5c66b06b
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: getBackground
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: getBackground
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Child (MyCamera) attached to this node (MyCamera SG)
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: getBackground
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: getBackground
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: init com.jmex.awt.jogl.JOGLAWTCanvas[canvas0,0,0,800x600]
+INFO [com.jme.renderer.jogl.JOGLRenderer]: JOGLRenderer created. W:  800H: 600	Version: 1.1.2-pre-20080523-02:11:31
+INFO [com.jme.renderer.AbstractCamera]: Camera created.
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jmex.awt.jogl.JOGLAWTCanvas]: reshape com.jmex.awt.jogl.JOGLAWTCanvas[canvas0,0,0,800x600], 0, 0, 800, 600
+INFO [com.jme.renderer.AbstractCamera]: Camera created.
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Line]: Line created.
+INFO [com.jme.scene.Node]: Child (Grid) attached to this node (Grid)
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Child (base) attached to this node (xAxis)
+INFO [com.jme.scene.Node]: Child (tip) attached to this node (xAxis)
+INFO [com.jme.scene.Node]: Child (xAxis) attached to this node (Axis)
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Child (base) attached to this node (yAxis)
+INFO [com.jme.scene.Node]: Child (tip) attached to this node (yAxis)
+INFO [com.jme.scene.Node]: Child (yAxis) attached to this node (Axis)
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Child (base) attached to this node (zAxis)
+INFO [com.jme.scene.Node]: Child (tip) attached to this node (zAxis)
+INFO [com.jme.scene.Node]: Child (zAxis) attached to this node (Axis)
+INFO [com.jme.scene.Node]: Child (Axis) attached to this node (Axis)
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Child (Shadow Quad) attached to this node (Shadow Debug)
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.renderer.jogl.JOGLTextureRenderer]: FBO support detected.
+INFO [com.jme.renderer.jogl.JOGLTextureRenderer]: Init RTT camera
+INFO [com.jme.renderer.AbstractCamera]: Camera created.
+INFO [com.jme.renderer.jogl.JOGLTextureRenderer]: setup fbo tex with id 2: 2048,2048
+INFO [com.jme.scene.Node]: Child (teapot) attached to this node (null)
+INFO [com.jme.scene.Node]: Node created.
+INFO [com.jme.scene.Node]: Child (Ortho) attached to this node (null)
+Diagnostic information
+Input arguments:
+	-Djdk.home=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+	-Dnetbeans.system_http_proxy=DIRECT
+	-Dnetbeans.system_http_non_proxy_hosts=
+	-Dnetbeans.dirs=/Users/justin/NetBeansProjects/ShadowMapTest/build/cluster:/Users/justin/Desktop/iSocial/NetBeans
+	7.1.2.app/Contents/Resources/NetBeans/platform
+	-Dnetbeans.home=/Users/justin/Desktop/iSocial/NetBeans
+	7.1.2.app/Contents/Resources/NetBeans/platform
+	-Dnetbeans.logger.console=true
+	-ea
+	-Djava.library.path=../gluegen-rt/release/modules/lib
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=/Users/justin/NetBeansProjects/ShadowMapTest/build/testuserdir/var/log/heapdump.hprof
+Compiler: HotSpot 64-Bit Server Compiler
+Heap memory usage: initial 0b maximum 123.9MB
+Non heap memory usage: initial 23.2MB maximum 132.0MB
+Garbage collector: ParNew (Collections=6 Total time spent=0s)
+Garbage collector: ConcurrentMarkSweep (Collections=2 Total time spent=0s)
+Classes: loaded=4935 total loaded=4935 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,589,934,592
+INFO [null]: Total physical memory 8,589,934,592
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [edu-isocial-shadowmap-addshape-AddShapeTopComponent.shadow, edu-isocial-shadowmap-fdTopComponent.shadow, edu-isocial-shadowmap-properties-Properties2TopComponent.shadow, edu-isocial-shadowmap-scenegraph-viewer-ViewerTopComponent.shadow], but some are: [org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow, Output, SwitchToRecentDocumentAction.shadow, ProgressListAction.shadow, Separator3.instance, ConfigureWindow, org-netbeans-core-windows-actions-ResetWindowsAction.shadow, Separator4.instance, CloseWindowAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, DocumentsAction.shadow]
+SEVERE [global]
+javax.media.opengl.GLException: No OpenGL context current on this thread
+	at javax.media.opengl.glu.GLU.getCurrentGL(GLU.java:234)
+	at com.jme.renderer.jogl.JOGLCamera.doFrustumChange(JOGLCamera.java:193)
+	at com.jme.renderer.jogl.JOGLCamera.apply(JOGLCamera.java:158)
+	at org.jdesktop.mtgame.OnscreenRenderBuffer.makeCurrent(OnscreenRenderBuffer.java:194)
+[catch] at org.jdesktop.mtgame.Renderer.run(Renderer.java:895)
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: module org.netbeans.libs.jna in /Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform does not own modules/lib/libjnidispatch.jnilib at org.netbeans.StandardModule$OneModuleClassLoader.findLibrary(StandardModule.java:718)

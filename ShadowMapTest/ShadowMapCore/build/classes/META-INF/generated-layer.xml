@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="edu-isocial-shadowmap-fdTopComponent.shadow">
+                <!--edu.isocial.shadowmap.ShadowMapCore-->
+                <attr name="originalFile" stringvalue="Actions/Window/edu-isocial-shadowmap-fdTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ShadowMapTest.settings">
+                <!--edu.isocial.shadowmap.ShadowMapCore--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="edu.isocial.shadowmap.ShadowMapCore"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ShadowMapTest.wstcref">
+                    <!--edu.isocial.shadowmap.ShadowMapCore--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ShadowMapTest"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="edu-isocial-shadowmap-fdTopComponent.instance">
+                <!--edu.isocial.shadowmap.ShadowMapCore-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="edu.isocial.shadowmap.ShadowMapCore"/>
+                <attr name="preferredID" stringvalue="fdTopComponent"/>
+                <attr
+                    bundlevalue="edu.isocial.shadowmap.Bundle#CTL_fdAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.shadowmap.mtgamejars">
+    <module_version install_time="1347464739357" last="true" origin="installer" specification_version="1.0">
+        <file crc="3722022617" name="config/Modules/edu-isocial-shadowmap-mtgamejars.xml"/>
+        <file crc="3987245507" name="modules/edu-isocial-shadowmap-mtgamejars.jar"/>
+        <file crc="490766669" name="modules/ext/javolution.jar"/>
+        <file crc="3842209556" name="modules/ext/jbullet.jar"/>
+        <file crc="2117958712" name="modules/ext/jme-audio.jar"/>
+        <file crc="3998963911" name="modules/ext/jme-awt.jar"/>
+        <file crc="270971213" name="modules/ext/jme-collada.jar"/>
+        <file crc="2946233678" name="modules/ext/jme-editors.jar"/>
+        <file crc="1707257169" name="modules/ext/jme-effects.jar"/>
+        <file crc="776290488" name="modules/ext/jme-font.jar"/>
+        <file crc="1533623974" name="modules/ext/jme-gamestates.jar"/>
+        <file crc="3160950552" name="modules/ext/jme-model.jar"/>
+        <file crc="4210487563" name="modules/ext/jme-scene.jar"/>
+        <file crc="3744307847" name="modules/ext/jme-swt.jar"/>
+        <file crc="3327023690" name="modules/ext/jme-terrain.jar"/>
+        <file crc="1869095386" name="modules/ext/jme-xml.jar"/>
+        <file crc="481182665" name="modules/ext/jme.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: edu.isocial.shadowmap.properties
+OpenIDE-Module-Localizing-Bundle: edu/isocial/shadowmap/properties/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,3 @@
+||:edu.isocial.shadowmap.shadowmap_api.ShadowMapCoreAPI
+java.lang.Object
+edu.isocial.shadowmap.shadowmap_api.ShadowMapCoreAPI

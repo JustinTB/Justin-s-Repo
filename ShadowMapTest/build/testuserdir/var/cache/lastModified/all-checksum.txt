@@ -1,0 +1,7 @@
+/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform=1343064606000
+/Users/justin/NetBeansProjects/ShadowMapTest/build/cluster=1347464741000
+/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform=1343064606000
+/Users/justin/NetBeansProjects/ShadowMapTest/build/testuserdir=1347464741000
+crc=7
+locale=en_US
+branding=shadowmaptest

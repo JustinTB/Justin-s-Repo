@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>edu.isocial.shadowmap.mtgamejar</code-name-base>
+            <suite-component/>
+            <module-dependencies>
+                <dependency>
+                    <code-name-base>edu.isocial.shadowmap.jogl</code-name-base>
+                    <build-prerequisite/>
+                    <compile-dependency/>
+                    <run-dependency>
+                        <specification-version>1.0</specification-version>
+                    </run-dependency>
+                </dependency>
+                <dependency>
+                    <code-name-base>edu.isocial.shadowmap.mtgamejars</code-name-base>
+                    <build-prerequisite/>
+                    <compile-dependency/>
+                    <run-dependency>
+                        <specification-version>1.0</specification-version>
+                    </run-dependency>
+                </dependency>
+            </module-dependencies>
+            <public-packages>
+                <package>org.jdesktop.mtgame</package>
+                <package>org.jdesktop.mtgame.processor</package>
+                <package>org.jdesktop.mtgame.shader</package>
+                <package>org.jdesktop.mtgame.test</package>
+                <package>org.jdesktop.mtgame.util</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/mtgame.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/mtgame.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

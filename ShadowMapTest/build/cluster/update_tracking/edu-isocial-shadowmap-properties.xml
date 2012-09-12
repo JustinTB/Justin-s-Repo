@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.shadowmap.properties">
+    <module_version install_time="1347464740183" last="true" origin="installer" specification_version="1.0">
+        <file crc="2876633929" name="config/Modules/edu-isocial-shadowmap-properties.xml"/>
+        <file crc="2982627220" name="modules/edu-isocial-shadowmap-properties.jar"/>
+    </module_version>
+</module>

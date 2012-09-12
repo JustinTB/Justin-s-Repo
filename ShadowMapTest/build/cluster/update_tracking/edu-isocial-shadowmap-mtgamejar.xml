@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.shadowmap.mtgamejar">
+    <module_version install_time="1347464739689" last="true" origin="installer" specification_version="1.0">
+        <file crc="2875832586" name="config/Modules/edu-isocial-shadowmap-mtgamejar.xml"/>
+        <file crc="3875830128" name="modules/edu-isocial-shadowmap-mtgamejar.jar"/>
+        <file crc="2177397909" name="modules/ext/mtgame.jar"/>
+    </module_version>
+</module>

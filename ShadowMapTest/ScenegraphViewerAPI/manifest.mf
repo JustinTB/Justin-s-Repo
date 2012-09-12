@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: edu.isocial.shadowmap.sgvapi
+OpenIDE-Module-Localizing-Bundle: edu/isocial/shadowmap/sgvapi/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

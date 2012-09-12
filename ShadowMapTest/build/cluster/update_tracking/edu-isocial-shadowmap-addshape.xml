@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.shadowmap.addshape">
+    <module_version install_time="1347464741310" last="true" origin="installer" specification_version="1.0">
+        <file crc="956246938" name="config/Modules/edu-isocial-shadowmap-addshape.xml"/>
+        <file crc="2874203422" name="modules/edu-isocial-shadowmap-addshape.jar"/>
+    </module_version>
+</module>
