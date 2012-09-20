@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: edu.isocial.gameskeletoncore.gluegenrt
+OpenIDE-Module-Localizing-Bundle: edu/isocial/gameskeletoncore/gluegenrt/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

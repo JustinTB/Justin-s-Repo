@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: edu.isocial.gameskeleton.jme
+OpenIDE-Module-Localizing-Bundle: edu/isocial/gameskeleton/jme/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

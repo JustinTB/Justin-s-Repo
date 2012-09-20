@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: edu.isocial.gameskeleton.mtgame
+OpenIDE-Module-Localizing-Bundle: edu/isocial/gameskeleton/mtgame/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

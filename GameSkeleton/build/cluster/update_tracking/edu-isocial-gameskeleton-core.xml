@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.gameskeleton.core">
+    <module_version install_time="1348156528614" last="true" origin="installer" specification_version="1.0">
+        <file crc="216109864" name="config/Modules/edu-isocial-gameskeleton-core.xml"/>
+        <file crc="247634897" name="modules/edu-isocial-gameskeleton-core.jar"/>
+    </module_version>
+</module>

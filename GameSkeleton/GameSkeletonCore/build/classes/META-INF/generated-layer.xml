@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="edu_isocial_gameskeleton_core">
+                <file name="sample" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--edu.isocial.gameskeleton.core.MyGameCore-->
+                    <attr name="hint.originalPublicID" stringvalue="-//edu.isocial.gameskeleton.core//sample//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="edu">
+                <folder name="isocial">
+                    <folder name="gameskeleton">
+                        <folder name="core">
+                            <file name="MyGameCore">
+                                <!--edu.isocial.gameskeleton.core.MyGameCore-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//edu_isocial_gameskeleton_core/sample.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="edu_isocial_gameskeleton_core">
+                <file name="sample.instance">
+                    <!--edu.isocial.gameskeleton.core.MyGameCore-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="edu.isocial.gameskeleton.core.MyGameCore"/>
+                    <attr name="settings.instanceOf" stringvalue="edu.isocial.gameskeleton.core.MyGameCore"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="edu-isocial-gameskeleton-core-sampleTopComponent.shadow">
+                <!--edu.isocial.gameskeleton.core.MyGameCore-->
+                <attr name="originalFile" stringvalue="Actions/Window/edu-isocial-gameskeleton-core-sampleTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="sampleTopComponent.settings">
+                <!--edu.isocial.gameskeleton.core.MyGameCore--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="edu.isocial.gameskeleton.core.MyGameCore"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="sampleTopComponent.wstcref">
+                    <!--edu.isocial.gameskeleton.core.MyGameCore--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="sampleTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="edu-isocial-gameskeleton-core-sampleTopComponent.instance">
+                <!--edu.isocial.gameskeleton.core.MyGameCore-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="edu.isocial.gameskeleton.core.MyGameCore"/>
+                <attr name="preferredID" stringvalue="sampleTopComponent"/>
+                <attr
+                    bundlevalue="edu.isocial.gameskeleton.core.Bundle#CTL_sampleAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

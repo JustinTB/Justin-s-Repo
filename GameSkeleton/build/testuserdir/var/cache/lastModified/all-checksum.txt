@@ -1,0 +1,7 @@
+/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform=1343064606000
+/Users/justin/NetBeansProjects/GameSkeleton/build/cluster=1348156528000
+/Users/justin/Desktop/iSocial/NetBeans 7.1.2.app/Contents/Resources/NetBeans/platform=1343064606000
+/Users/justin/NetBeansProjects/GameSkeleton/build/testuserdir=1348156528000
+crc=7
+locale=en_US
+branding=gameskeleton

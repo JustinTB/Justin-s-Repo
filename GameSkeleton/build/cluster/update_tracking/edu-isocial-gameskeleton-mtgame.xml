@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.gameskeleton.mtgame">
+    <module_version install_time="1348156528119" last="true" origin="installer" specification_version="1.0">
+        <file crc="3465624109" name="config/Modules/edu-isocial-gameskeleton-mtgame.xml"/>
+        <file crc="333061404" name="modules/edu-isocial-gameskeleton-mtgame.jar"/>
+        <file crc="2177397909" name="modules/ext/mtgame.jar"/>
+    </module_version>
+</module>

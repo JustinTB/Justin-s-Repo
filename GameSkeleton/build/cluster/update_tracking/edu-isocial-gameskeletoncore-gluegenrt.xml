@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="edu.isocial.gameskeletoncore.gluegenrt">
+    <module_version install_time="1348156527153" last="true" origin="installer" specification_version="1.0">
+        <file crc="1469783278" name="config/Modules/edu-isocial-gameskeletoncore-gluegenrt.xml"/>
+        <file crc="3682653465" name="modules/edu-isocial-gameskeletoncore-gluegenrt.jar"/>
+        <file crc="231461169" name="modules/ext/gluegen-rt.jar"/>
+        <file crc="1291814216" name="modules/lib/libgluegen-rt.jnilib"/>
+        <file crc="3272036687" name="modules/lib/libjogl.jnilib"/>
+        <file crc="1232734016" name="modules/lib/libjogl_awt.jnilib"/>
+        <file crc="988407254" name="modules/lib/libjogl_cg.jnilib"/>
+    </module_version>
+</module>
