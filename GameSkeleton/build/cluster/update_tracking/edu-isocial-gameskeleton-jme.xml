@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="edu.isocial.gameskeleton.jme">
-    <module_version install_time="1348156527879" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1348241110499" last="true" origin="installer" specification_version="1.0">
         <file crc="2720295863" name="config/Modules/edu-isocial-gameskeleton-jme.xml"/>
-        <file crc="995097756" name="modules/edu-isocial-gameskeleton-jme.jar"/>
+        <file crc="1267542838" name="modules/edu-isocial-gameskeleton-jme.jar"/>
         <file crc="490766669" name="modules/ext/javolution.jar"/>
         <file crc="3842209556" name="modules/ext/jbullet.jar"/>
         <file crc="2117958712" name="modules/ext/jme-audio.jar"/>

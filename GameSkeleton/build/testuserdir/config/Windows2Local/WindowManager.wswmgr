@@ -5,8 +5,8 @@
   <joined-properties
    x="96"
    y="109"
-   width="1728"
-   height="981"
+   width="805"
+   height="783"
    relative-x="0.0"
    relative-y="0.0"
    relative-width="0.0"
@@ -40,6 +40,7 @@
   <bounds x="633" y="261" width="806" height="479" />
     </editor-area>
     <screen width="1920" height="1200"/>
+    <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
   <tc-id id="sampleTopComponent"/>

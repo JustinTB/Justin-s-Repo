@@ -23,24 +23,20 @@ import org.jdesktop.mtgame.WorldManager;
 public class DefaultGameFrame extends JFrame implements FrameRateListener {
 
     private JPanel contentPane;
-    private Canvas canvas;
     private JPanel canvasPanel = new JPanel();
     private JPanel statusPanel = new JPanel();
     private JLabel fpsLabel = new JLabel("FPS: ");
 
     // Construct the frame
-    public DefaultGameFrame(WorldManager worldManager, 
-                            RenderBuffer renderBuffer, 
-                            int width, 
+    public DefaultGameFrame(WorldManager worldManager,
+                            RenderBuffer renderBuffer,
+                            Canvas canvas,
+                            int width,
                             int height) {
 
         contentPane = (JPanel) this.getContentPane();
         contentPane.setLayout(new BorderLayout());
 
-
-        renderBuffer = createRenderBuffer(worldManager, width, height);
-        worldManager.getRenderManager().addRenderBuffer(renderBuffer);
-        canvas = ((OnscreenRenderBuffer) renderBuffer).getCanvas();
         canvas.setVisible(true);
         canvas.setBounds(0, 0, width, height);
 
@@ -65,8 +61,4 @@ public class DefaultGameFrame extends JFrame implements FrameRateListener {
         fpsLabel.setText("FPS: " + framerate);
     }
 
-    private RenderBuffer createRenderBuffer(WorldManager worldManager, int width, int height) {
-        return worldManager.getRenderManager().createRenderBuffer(RenderBuffer.Target.ONSCREEN,
-                width, height);
-    }
 }

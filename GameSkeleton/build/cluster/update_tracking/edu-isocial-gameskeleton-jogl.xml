@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="edu.isocial.gameskeleton.jogl">
-    <module_version install_time="1348156527409" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1348241110082" last="true" origin="installer" specification_version="1.0">
         <file crc="1695334166" name="config/Modules/edu-isocial-gameskeleton-jogl.xml"/>
-        <file crc="2082706690" name="modules/edu-isocial-gameskeleton-jogl.jar"/>
+        <file crc="593193031" name="modules/edu-isocial-gameskeleton-jogl.jar"/>
         <file crc="602694816" name="modules/ext/jogl.jar"/>
         <file crc="1291814216" name="modules/ext/libgluegen-rt.jnilib"/>
         <file crc="3272036687" name="modules/ext/libjogl.jnilib"/>

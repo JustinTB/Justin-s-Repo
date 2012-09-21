@@ -4,6 +4,10 @@
  */
 package edu.isocial.gameskeleton.core;
 
+import edu.isocial.gameskeleton.core.builders.LightBuilder;
+import edu.isocial.gameskeleton.core.builders.FloorBuilder;
+import edu.isocial.gameskeleton.core.builders.CameraBuilder;
+import edu.isocial.gameskeleton.core.builders.AxisBuilder;
 import com.jme.scene.CameraNode;
 import com.jme.scene.shape.Quad;
 import java.awt.BorderLayout;
@@ -25,6 +29,8 @@ public abstract class GameSkeletonCORE extends TopComponent {
 
     private WorldManager worldManager = null;
     private CameraNode cameraNode = null;
+    private Canvas canvas = null;
+    
     private int desiredFrameRate = 60;
     
     //The width and height of our 3D window 
@@ -32,14 +38,11 @@ public abstract class GameSkeletonCORE extends TopComponent {
     private int height = 600;
     private float aspectRatio = 800.0f / 600.0f;
     
-    //The entities which represent the grid and axis
+    //Entity which represents the axis
     private Entity axisEntity = new Entity("Axis");
-    private Canvas canvas = null;
     
     private RenderBuffer renderBuffer;
     private ShadowMapRenderBuffer shadowMapBuffer = null;
-    private RenderComponent floorRenderComponent = null;
-    private Quad quadGeo = null;
     
     //Builders for the camera, axis, light, and the floor
     private CameraBuilder cameraBuilder;
@@ -51,19 +54,22 @@ public abstract class GameSkeletonCORE extends TopComponent {
         ExecutorService executor = java.util.concurrent.Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
         executor.submit(new Runnable() {
-
             public void run() {
+                
                 worldManager = new WorldManager("TestWorld");
 
                 worldManager.getRenderManager().setDesiredFrameRate(desiredFrameRate);
 
-
-                createUI(worldManager, renderBuffer, width, height);
+                setupRenderBuffer();
+                
+                canvas = ((OnscreenRenderBuffer) renderBuffer).getCanvas(); 
+                
+                createUI(worldManager, renderBuffer, canvas, width, height);
 
                 createDefaultSceneComponents();
 
                 createScene(worldManager);
-
+                
             }
         });
     }
@@ -80,58 +86,18 @@ public abstract class GameSkeletonCORE extends TopComponent {
         lightBuilder.createGlobalLight();
         shadowMapBuffer = lightBuilder.getShadowMapBuffer();
 
-        floorBuilder = new FloorBuilder(worldManager, floorRenderComponent, quadGeo, shadowMapBuffer);
+        floorBuilder = new FloorBuilder(worldManager, shadowMapBuffer);
         floorBuilder.createFloor();
     }
 
-    protected abstract void createUI(WorldManager worldManager, RenderBuffer renderBuffer, 
-                                        int width, int height);
+    protected abstract void createUI(WorldManager worldManager, RenderBuffer renderBuffer,
+                                                Canvas canvas, int width, int height);
 
     protected abstract void createScene(WorldManager worldManager);
     
-    class SwingFrame extends JFrame implements FrameRateListener{
-
-        JPanel contentPane;
-        JPanel canvasPanel = new JPanel();
-        JPanel statusPanel = new JPanel();
-        JLabel fpsLabel = new JLabel("FPS: ");
-
-        // Construct the frame
-        public SwingFrame(WorldManager wm) {
-
-            contentPane = (JPanel) this.getContentPane();
-            contentPane.setLayout(new BorderLayout());
-
-
-            renderBuffer = wm.getRenderManager().createRenderBuffer(RenderBuffer.Target.ONSCREEN, width, height);
-            wm.getRenderManager().addRenderBuffer(renderBuffer);
-            canvas = ((OnscreenRenderBuffer) renderBuffer).getCanvas();
-            canvas.setVisible(true);
-            canvas.setBounds(0, 0, width, height);
-
-            wm.getRenderManager().setFrameRateListener(this, 100);
-            canvasPanel.setLayout(new GridBagLayout());
-
-            canvasPanel.add(canvas);
-            contentPane.add(canvasPanel, BorderLayout.CENTER);
-
-
-            // The status panel
-            statusPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
-            statusPanel.add(fpsLabel);
-            contentPane.add(statusPanel, BorderLayout.SOUTH);
-
-            pack();
-        }
-
-        
-        //Listen for frame rate updates
-        @Override
-        public void currentFramerate(float framerate) {
-            fpsLabel.setText("FPS: " + framerate);
-        }
-
-    }
-
-   
+    private void setupRenderBuffer() {
+        renderBuffer = worldManager.getRenderManager().createRenderBuffer(RenderBuffer.Target.ONSCREEN,
+                width, height);
+        worldManager.getRenderManager().addRenderBuffer(renderBuffer);      
+    } 
 }

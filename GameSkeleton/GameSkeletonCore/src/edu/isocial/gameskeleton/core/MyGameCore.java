@@ -4,6 +4,7 @@
  */
 package edu.isocial.gameskeleton.core;
 
+import java.awt.Canvas;
 import javax.swing.JOptionPane;
 import org.jdesktop.mtgame.RenderBuffer;
 import org.jdesktop.mtgame.WorldManager;
@@ -36,23 +37,23 @@ preferredID = "sampleTopComponent")
 })
 public class MyGameCore extends GameSkeletonCORE{
     
-    
     public MyGameCore(){
         super();
         
     }
     
     @Override
-    protected void createUI(WorldManager worldManager, RenderBuffer renderBuffer, int width, int height) {
-        SwingFrame frame = new SwingFrame(worldManager);
-        add(frame.contentPane);
-    }
-
-    @Override
-    protected void createScene(WorldManager worldManager) {
-        JOptionPane.showMessageDialog(null, "CREATING SCENE!");
+    protected void createUI(WorldManager worldManager, RenderBuffer renderBuffer, Canvas canvas, int width, int height) {
+        DefaultGameFrame frame = new DefaultGameFrame(worldManager, renderBuffer, canvas, width, height);
+        add(frame.getContentPane());
     }
     
+    @Override
+    protected void createScene(WorldManager worldManager) {
+        System.out.println("CREATING SCENE!");
+    }
+    
+    // <editor-fold defaultstate="collapsed" desc="Required Top Component Methods">
     @Override
     public void componentOpened() {
         // TODO add custom code on component opening
@@ -74,5 +75,6 @@ public class MyGameCore extends GameSkeletonCORE{
         String version = p.getProperty("version");
         // TODO read your settings according to their version
     }
+    //</editor-fold>
     
 }
