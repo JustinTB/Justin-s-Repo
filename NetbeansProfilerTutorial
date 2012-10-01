@@ -1,0 +1,63 @@
+Learning about the Netbeans Profiler
+---CPU, memory, and threads profiling
+---profile any netbeans application or attach it to a running process outside of netbeans
+
+How to Calibrate...
+---Before profiling any netbeans application, must first run calibration (only have to do it once). To do
+this, select the project you want to profile. From the "Profiler" drop down menu, select "Advanced 
+Commands", and then click "Run Profiler Calibration." Also, the calibration process will start 
+automatically if you try to profile an application for the first time.
+
+How to Start Profiling...
+Netbeans application:
+---Right click on project and click "Profile" OR select project you want to profile and from the "Profile" 
+drop down menu, click "Profile Project"
+---Choose between three options: Monitor, CPU, and Memory
+---Can select different options that affect the overhead of the Profiler
+---Click ">Run"
+
+
+Running process outside of Netbeans:
+---Run some process outside of Netbeans
+---From the "Profile" drop down menu, click "Attach Profiler."
+---The "Attach to: " box will be automatically selected for an External Application.
+---Follow the same two steps from above when choosing profiling options
+---Click ">>Attach"
+---From the combo-box, select the process you want to profile
+---Click "Ok"
+
+---Simply stop process or application or choose "Stop Profiling Session" from the "Profile" drop down 
+menu to stop profiling.
+
+How to Find Memory Leaks...
+---Profile application or process and click "Take Heap Dump..." (can take multiple throughout runtime 
+to compare) from the "Profile" drop down menu.
+---Look at classes view by clicking the "Classes" option at the top of the heap dump window
+---Organize by size by clicking on the "Size" category
+---Pick any one memory-heavy class name by double clicking it to see its instances
+---You can organize the instances of that particular class by size by clicking the "Size" category
+---Pick any one memory-heavy instance by clicking on it
+---In the "References" window, you can right click on any field and click "Show nearest GCRoot" 
+(Note: sometimes the field you click on may be a GCRoot* or there may not be any GCRoots)
+---If you find a GCRoot in the stack trace of a memory-heave instance, it is a good place to start 
+when trying to get rid of memory-leaks. Since GCRoots are not automatically garbage collected and 
+neither are its "reachable" objects, it may be advantageous to manually free the GCRoot. To do this, 
+you can right click on the GCRoot in the Reference window and select "Go to Source" to see exactly 
+where the instance is created in the program. Then, you can right click on the instance and click 
+"Find Usages" to see where the instance is used in the project. Finally, you need to figure out where 
+you can manually free that instance and free it (Example: using the dispose() method on a JFrame or 
+JPanel)
+---After manually freeing an instance/instances using these steps, you can profile the 
+application/process again, take a few heap dumps, and compare the memory usage to the previous 
+heap dumps taken to see if the memory-leak is fixed (or at least better). 
+
+Some Terms...
+---sticky class (seen in the Instances view when taking a heap dump): classes that are expensive to 
+create and thus are kept even though there may be no live reference to them. The primitive classes 
+are sticky classes, for example. 
+                      -http://www.freepatentsonline.com/6434575.html
+---*GCRoot (seen in the Instances view when taking a heap dump): Garbage Collection Root; acts as 
+a reference to other objects during garbage collection. If an object is "reachable" from the GCRoot, it 
+is considered live. Therefore, those objects are not garbage collected. GCRoots themselves are not 
+garbage collected either. 
+                       -http://www.appperfect.com/support/docs/java-profiler/profiler/heap_browser.html#GCRoot-Obj
