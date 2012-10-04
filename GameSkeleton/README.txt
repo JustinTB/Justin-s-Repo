@@ -17,7 +17,7 @@ DEPENDENCIES
 ---jme, jbullet, javolution
 ---gluegen-rt
 
-HOW IT WAS SETUP…
+HOW IT WAS SETUP...
 
 CREATING NEW PROJECT
 ---File > New Project
@@ -53,7 +53,7 @@ to add
 ---Also like before, input your preferred code name base (EX: edu.isocial.gameskeleton.jogl) and click "Finish"
 ---Your library will show up just as any other module
 
-ADDING DEPNEDENCIES
+ADDING DEPENDENCIES
 ---Like stated before, on a basic level adding a modular dependency is like adding a library, whether the module actually 
 consists of libraries, other classes, or APIs
 ---Under any module, right click on the "Libraries" folder and click "Add Module Dependency..."
@@ -66,7 +66,7 @@ MODULES AND DEPENDENCY SETUP FOR A GAME APPLICATION
 jme, javolution, jbullet, and gluegen-rt. Jme, javolution, and jbullet are packaged in one module.
 ---There is a dependency hierarchy between these libraries that looks like this:
 			      
-	              |---------> JOGL --> gluegen-rt
+	              |------> JOGL --> gluegen-rt
 	   |------> Mtgame --> jme, javolution, jbullet --> JOGL --> gluegen-rt
 	PROJECT---> jme, javolution, jbullet --> JOGL
 	   |------> JOGL --> gluegen-rt
@@ -95,3 +95,26 @@ your main project:
 *NOTE: you can add the .jnlib files anywhere within your project folder. Just make sure to change your run.args.extra line 
 accordingly, aka update the library path
 ---This prevents any gluegen-rt/jogl native library path errors when running your application
+
+GAMESKELETONCORE, THE ABSTRACT CLASS
+---GameSkeletonCORE is the main, blueprint class that can be extended to create a Game Application of your liking. It provides  
+three important base components: the constructor, which runs the program when the application starts; the 
+createDefaultSceneComponents method which sets up the camera, axis, light, and floor; and the setupRenderBuffer method, used by 
+the constructor to create the Render Buffer. These three components can be used by default to setup the basic floor/axis/light 
+3D world that shows up on the canvas when GameSkeleton is run. If you want to begin using, changing and/or adding things to the 
+application, you can extend GameSkeletonCORE to create your own "custom" main class. 
+---I am going to use the MyGameCore class in GameSkeleton as an example
+---As I mentioned earlier, Netbeans Platform Applications are made up of Top Components, which are windows within the 
+application. 
+---When I create MyGameCore and have it extend GameSkeletonCORE, it not only inherits from GameSkeletonCORE, but it also inherits
+from TopComponent, because GameSkeletonCORE inherits from TopComponent. The annotations above MyGameCore and the four methods in the 
+"Required Top Component Methods" fold are required when creating a TopComponent.
+---As you can see, in MyGameCore's constructor, it calls the GameSkeletonCORE's (super class) constructor, which does many important
+things to setup the game application (e.g. creating the worldManager, setting up the renderBuffer and canvas, and creating the default
+scene). 
+---The two methods overridden from GameSkeletonCORE, the abstract class are createUI and createScene. The createUI method in MyGameCore
+creates the DefaultGameFrame and adds the ContentPane (which is basically adding the canvas and frame rate panel to the top component). 
+However, you can add whatever you want to this method to manipulate/change/add to the Top Component. The createScene method can be used to 
+create/add what you want to the scene that shows up on the canvas. 
+---In summary, the abstract GameSkeletonCORE class is a base class to follow/build upon (extend) to create a Game Application. The MyGameCore 
+class is a simple example of extending that base class, creating a Top Component, and implementing the abstract methods. 
