@@ -29,6 +29,7 @@ public class FloorBuilder {
         floor.setMaterial(mat);
         floor.setLocalTranslation(0,-0.01f, 0);
         floor.setShadowMode(ShadowMode.Receive);
-        parentNode.attachChild(floor);              
+        parentNode.attachChild(floor);        
+        System.out.println("FLOOR COORDINATES: " + floor.getWorldTranslation());
     }
 }

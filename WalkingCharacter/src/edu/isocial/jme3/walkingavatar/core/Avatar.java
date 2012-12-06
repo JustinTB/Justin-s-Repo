@@ -49,6 +49,11 @@ public class Avatar extends Node {
         initAnimationChannels();
     }
     
+    public void updateState(){
+        setPants(AvatarState.INSTANCE.getPants());
+        setShirt(AvatarState.INSTANCE.getShirt());
+    }
+    
     private void createDefaultAvatar() {
         /*TODO: if using collision shape, make sure it fits the size of the avatar
          *NOTE: can use bulletAppState.getPhysicsSpace().enableDebug(assetManager);
